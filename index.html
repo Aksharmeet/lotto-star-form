@@ -57,11 +57,16 @@
                     </div>
                     <form class="form_container" onsubmit="myFunction(event)">
                         <div class="form_container_innerWrapper">
-                            <input type="text" placeholder="ID NUMBER" required />
-                            <input type="text" placeholder="NAME" required />
-                            <input type="text" placeholder="SURNAME" required />
-                            <input type="text" placeholder="EMAIL" required />
-                            <input type="tel" placeholder="MOBILE NUMBER" required />
+                            <input type="text" placeholder="ID NUMBER" required id="id-number" />
+                            <p id="id-number-error" class="validate-error"></p>
+                            <input type="text" placeholder="NAME" required id="name" />
+                            <p id="name-error" class="validate-error"></p>
+                            <input type="text" placeholder="SURNAME" required id="surname" />
+                            <p id="surname-error" class="validate-error"></p>
+                            <input type="text" placeholder="EMAIL" required id="email" />
+                            <p id="email-error" class="validate-error"></p>
+                            <input type="tel" placeholder="MOBILE NUMBER" required id="mobile" />
+                            <p id="mobile-number-error " class="validate-error"></p>
 
                             <label for="accept_radio" class="form_container_innerWrapper_radio_label">
                                 <input type="radio" id="accept_radio" class="form_container_innerWrapper_radio_input"

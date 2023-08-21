@@ -104,6 +104,20 @@ body{
     
 }
 
+
+.validate-error{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
 .divider_component{
     display: flex;
     align-items: center;
