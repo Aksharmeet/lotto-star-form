@@ -47,6 +47,14 @@ body{
     width:325px;
     margin-top: 20px;
 }
+
+.global_button:hover{
+    opacity: .9;
+  }
+  .global_button:active{
+    transform: scale(.9);
+  }
+  
 @media screen and (max-width: 768px) {
     .global_button{
         width: 100%;
@@ -291,7 +299,10 @@ input[type="text"]::placeholder,input[type="tel"]::placeholder{
 }
 
 .form_container_invisible_object{
-    width:calc(325px + 62px + 31px);  /* 62px is the width border and padding of input type text and another 31px is for the remaining 62px of submit button */
+    width:calc(325px + 62px + 31px);  /* 62px is the width border and padding of input type text and another 31px is for the remaining 62px of submit 
+    
+    
+    */
 }
 
 /* -----------------section 1: form => end ----------------- */
@@ -563,13 +574,8 @@ input[type="text"]::placeholder,input[type="tel"]::placeholder{
     gap: 10px;
     justify-content: center;
 }
-.button{
-    padding: 12px 20px;
-    border-radius: 40px;
-    font-size: 22px;
-    font-weight: 900;
-    border:none;
-}
+
+
 .blue-button, .yellow-button{
     color: var(--tertiary-color);
 }
@@ -579,3 +585,4 @@ input[type="text"]::placeholder,input[type="tel"]::placeholder{
 .yellow-button{
     background: var(--secondary-color);
 }
+
