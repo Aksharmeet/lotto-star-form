@@ -17,9 +17,9 @@
     </header>
 
     <main>
-        <section>
+        <section class="sections form_section">
 
-            <div class="sections form_section">
+            <div id="form" class="form_section_inner">
                 <div>
                     <p class="form_section_description_text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in euismod arcu. Vivamus sit amet
@@ -66,7 +66,7 @@
                             <input type="text" placeholder="EMAIL" required id="email" />
                             <p id="email-error" class="validate-error"></p>
                             <input type="tel" placeholder="MOBILE NUMBER" required id="mobile" />
-                            <p id="mobile-number-error " class="validate-error"></p>
+                            <p id="mobile-number-error" class="validate-error"></p>
 
                             <label for="accept_radio" class="form_container_innerWrapper_radio_label">
                                 <input type="radio" id="accept_radio" class="form_container_innerWrapper_radio_input"
@@ -82,6 +82,23 @@
                         </div>
 
                     </form>
+                </div>
+            </div>
+            <div class="hidden form_section_inner" id="submitted">
+                <div>
+                    <h1 class="form_section_title">YOUR ANSWER HAS BEEN SUBMITTED</h1>
+                    <p class="form_section_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                        in
+                        euismod arcu.
+                        Vivamus sit amet lacinia purus. Nulla a turpis ipsum. </p>
+                </div>
+                <div class="button_container">
+                    <button class="button blue-button">
+                        REGISTER & BET NOW
+                    </button>
+                    <button class="button yellow-button">
+                        LOGIN & BET NOW
+                    </button>
                 </div>
             </div>
         </section>

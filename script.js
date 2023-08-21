@@ -59,13 +59,16 @@ function myFunction(e) {
 
 	// validate mobile
 	if (typeof Number(mobile) !== 'number' || mobile.length < 10) {
-		const mobileError = document.getElementById('mobile-error')
+		const mobileError = document.getElementById('mobile-number-error')
 		mobileError.innerHTML = 'Please enter a valid mobile number'
 		return
 	} else {
-		const mobileError = document.getElementById('mobile-error')
+		const mobileError = document.getElementById('mobile-number-error')
 		mobileError.innerHTML = ''
 	}
+	const form = document.getElementById('form')
+	form.classList.add('hidden')
 
-	window.location.href = '/form-submitted.html'
+	const submitted = document.getElementById('submitted')
+	submitted.classList.remove('hidden')
 }
